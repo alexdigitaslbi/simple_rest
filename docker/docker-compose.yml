@@ -5,7 +5,7 @@ services:
     image: registry.training.local/workstation-2:${IMAGE_VERSION}
     network_mode: bridge
     environment:
-      - "SERVICE_NAME=spiffy"
+      - "SERVICE_NAME=spiffy${IMAGE_VERSION}"
     ports:
       - "4567"
 
