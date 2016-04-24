@@ -6,7 +6,7 @@ services:
     network_mode: bridge
     environment:
       - "SERVICE_NAME=spiffy"
-      - "SERVICE_TAGS=${IMAGE_VERSION}"
+      - "SERVICE_TAGS=v${IMAGE_VERSION}"
     ports:
       - "4567"
 
