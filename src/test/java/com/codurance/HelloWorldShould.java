@@ -9,7 +9,7 @@ public class HelloWorldShould {
     @Test public void
     sayHelloWorld() {
         HelloWorld helloWorld = new HelloWorld();
-        assertThat(helloWorld.sayHelloWorld(), is("Hello World"));
+        assertThat(helloWorld.sayHelloWorld(), is("<html><body><img src='https://jefferywilcox.files.wordpress.com/2010/02/spiff81.jpg'></body></html>"));
     }
 
 }
